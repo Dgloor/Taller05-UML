@@ -2,7 +2,7 @@ public class Permanente extends Empleado {
 	private double salario;
 	private String numeroSeguroSocial;
 	private String referencias;
-	private VehiculoPesado vehiculo;
+	public VehiculoPesado vehiculo;
 
 	public Permanente(String nombre, Date fechaNacimiento, String direccion, double salario, String numeroSeguroSocial, String referencias) {
 
@@ -20,10 +20,6 @@ public class Permanente extends Empleado {
 		return referencias;
 	}
 	 
-	 public VehiculoPesado getVehiculo() {
-		return vehiculo;
-	}
-	 
 	 public void setSalario(double salario) {
 		this.salario = salario;
 	}
@@ -34,10 +30,6 @@ public class Permanente extends Empleado {
 	 
 	public void setReferencias(String referencias) {
 		this.referencias = referencias;
-	}
-	 
-	public void setVehiculo(VehiculoPesado vehiculo) {
-		this.vehiculo = vehiculo;
 	}
 
 }
