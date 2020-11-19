@@ -3,31 +3,37 @@ public class Vehiculo {
     private String numeroRegistro;
     private double capacidadMotor;
     private Date nextFechaPrueba;
+    private Fabricante fabricante;
 
-    public Vehiculo(String numeroRegistro, double capacidadMotor, Date nextFechaPrueba){
-        this.numeroRegistro = numeroRegistro;
-        this.capacidadMotor = capacidadMotor;
-        this.nextFechaPrueba  = nextFechaPrueba;
+    public Vehiculo(){
+    }
+
+    public void setFabricante(String fabricante){
+        this.fabricante = fabricante;
+    }
+    
+    public Fabricante getFabricante(){
+        return this.fabricante;
     }
 
     public void setNumeroRegistro(String numeroRegistro){
         this.numeroRegistro = numeroRegistro;
+    }
+
+    public String getNumeroRegistro(){
+        return this.numeroRegistro;
     }
     
     public void setCapacidadMotor(double capacidadMotor){
         this.capacidadMotor = capacidadMotor;
     }
 
-    public void setNextFechaPrueba(Date nextFechaPrueba){
-        this.nextFechaPrueba = nextFechaPrueba;
-    }
-
-    public String getNumeroRegistro(){
-        return this.numeroRegistro;
-    }
-
     public double getCapacidadMotor(){
         return this.capacidadMotor;
+    }
+
+    public void setNextFechaPrueba(Date nextFechaPrueba){
+        this.nextFechaPrueba = nextFechaPrueba;
     }
 
     public Date getNextFechaPrueba(){
