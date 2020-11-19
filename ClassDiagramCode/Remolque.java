@@ -1,15 +1,13 @@
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Remolque {
     private String numeroRemolque;
     private double capacidadCarga;
     private Date fechaultimoServicio;
+    public ArrayList<Camion> lista;
 
-
-    public Remolque(String numeroRemolque, double capacidadCarga, Date fechaultimoServicio) {
-        this.numeroRemolque = numeroRemolque;
-        this.capacidadCarga = capacidadCarga;
-        this.setFechaultimoServicio(fechaultimoServicio);
+    public Remolque() {
     }
 
     public String getNumeroRemolque() {
@@ -27,7 +25,7 @@ public class Remolque {
     public void setCapacidadCarga(double capacidadCarga) {
         this.capacidadCarga = capacidadCarga;
     }
-    
+
     public Date getFechaultimoServicio() {
         return fechaultimoServicio;
     }
@@ -35,6 +33,4 @@ public class Remolque {
     public void setFechaultimoServicio(Date fechaultimoServicio) {
         this.fechaultimoServicio = fechaultimoServicio;
     }
-
-    
 }
