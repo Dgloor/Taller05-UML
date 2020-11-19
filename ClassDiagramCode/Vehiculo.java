@@ -3,17 +3,9 @@ public class Vehiculo {
     private String numeroRegistro;
     private double capacidadMotor;
     private Date nextFechaPrueba;
-    private Fabricante fabricante;
+    public Fabricante fabricante;
 
     public Vehiculo(){
-    }
-
-    public void setFabricante(String fabricante){
-        this.fabricante = fabricante;
-    }
-    
-    public Fabricante getFabricante(){
-        return this.fabricante;
     }
 
     public void setNumeroRegistro(String numeroRegistro){

@@ -1,7 +1,7 @@
 
 public class Fabricante {
-    String nombre;
-    ArrayList<Vehiculo> vehiculosFabricados;
+    private String nombre;
+    public ArrayList<Vehiculo> vehiculosFabricados;
 
     public Fabricante(){
     }
@@ -12,9 +12,5 @@ public class Fabricante {
     
     public String getNombre(){
         return this.nombre;
-    }
-    
-    public ArrayList<Vehiculo> getVehiculosFabricados(){
-        return this.vehiculosFabricados;
     }
 }
