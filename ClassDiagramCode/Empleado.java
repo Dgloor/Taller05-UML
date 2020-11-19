@@ -4,10 +4,7 @@ public class Empleado {
     private Date fechaNacimiento;
     private String direccion;
 
-    public Empleado(String nombre, Date fechaNacimiento, String direccion){
-        this.nombre = nombre;
-        this.fechaNacimiento = fechaNacimiento;
-        this.direccion = direccion;
+    public Empleado(){
     }
 
     public void setNombre(String nombre){
