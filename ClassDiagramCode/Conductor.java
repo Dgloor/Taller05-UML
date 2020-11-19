@@ -1,5 +1,5 @@
 public class Conductor extends Permanente{
-    public Conductor(){
-        
+
+    public Conductor(){¿   
     }
 }

@@ -3,8 +3,7 @@ public class Contratista extends Empleado {
 	private int duracionContrato;
 	private Date fechaDeInicio;
 	
-	public Contratista(String nombre, Date fechaDeNacimiento, String direccion, String nombreEmpresa, int duracionContrato, Date fechaDeInicio) {
-
+	public Contratista() {
 	}
 	
 	public String getNombreEmpresa() {

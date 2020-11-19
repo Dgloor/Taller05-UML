@@ -2,10 +2,9 @@ import java.util.Date;
 
 public class VehiculoPesado extends Vehiculo{
     private double pesoCargado;
+    public Permanente conductor;
 
-   public VehiculoPesado(String numeroRegistro, double capacidadMotor, Date nextFechaPrueba,double pesoCargado) {
-        super(numeroRegistro, capacidadMotor, nextFechaPrueba);
-        this.pesoCargado=pesoCargado;
+    public VehiculoPesado() {
     }
 
     public double getPesoCargado() {
@@ -16,7 +15,3 @@ public class VehiculoPesado extends Vehiculo{
         this.pesoCargado = pesoCargado;
     } 
 }
-
-    
-
-

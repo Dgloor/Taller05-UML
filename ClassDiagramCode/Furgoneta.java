@@ -1,8 +1,11 @@
 import java.util.Date;
 
-public class Furgoneta extends VehiculoPesado{
+public class Furgoneta extends VehiculoPesado {
 	private double pesoSinCarga;
 	private double capacidadCarga;
+
+    public Furgoneta(){
+    }
 
     public double getPesoSinCarga() {
         return pesoSinCarga;

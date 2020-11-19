@@ -1,6 +1,5 @@
-public class PersonalOficina extends Peramanente{
+public class PersonalOficina extends Permanente {
 
     public PersonalOficina(){
-        
     }
 }

@@ -5,7 +5,7 @@ public class Remolque {
     private String numeroRemolque;
     private double capacidadCarga;
     private Date fechaultimoServicio;
-    public ArrayList<Camion> lista;
+    public ArrayList<Camion> camiones;
 
     public Remolque() {
     }
